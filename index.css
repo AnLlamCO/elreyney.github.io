@@ -1,0 +1,83 @@
+/* Reset some default styles */
+body, h1, h2, p, ol, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #efd002;
+background-image: linear-gradient(319deg, #efd002 0%, #31b74a 37%, #442ce0 100%);
+    color: #333;
+    margin: 20px;
+}
+
+/* Heading styles */
+h1, h2, h4 {
+    color: #333;
+}
+
+/* Main heading styles */
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Content container styles */
+.upbringing, .t3, .n10, .achievements {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* Subheading styles */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Paragraph styles */
+p {
+    margin-bottom: 15px;
+}
+
+/* List styles */
+ol, ul {
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 5px;
+}
+
+/* Nested list styles */
+ul ul, ol ul, ul ol, ol ol {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* Achievements section styles */
+.achievements h4 {
+    margin-top: 15px;
+}
+
+/* Achievements image styles */
+.achievements img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+}
